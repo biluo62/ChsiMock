@@ -1,0 +1,3 @@
+{
+  "ignore": ["server/views/*", "server/public/*"]
+}
