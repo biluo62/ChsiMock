@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from 'react';
 
 // import LifeCycle from '../../test/components/LifeCycle/LifeCycle.jsx';
 
+import './App.scss';
+
 class App extends Component {
   static propTypes = {
     children: PropTypes.node

@@ -21,9 +21,9 @@ const baseConfig = {
   },
   module: {
     rules: [
-      { test: /\.jsx?$/, enforce: 'pre', loader: 'eslint-loader' },
+      // { test: /\.jsx?$/, enforce: 'pre', loader: 'eslint-loader' },
       { test: /\.jsx?$/, use: ['react-hot-loader', 'babel-loader'], exclude: /node_modules/ },
-      { test: /\.(png|jpe?g|gif|svg|webp)$/,
+      { test: /\.(png|jpe?g|gif|svg|webp|woff2)$/,
         use: [
           'url-loader?limit=8192&name=img/[name].[hash:8].[ext]'
         ],
