@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 const config = require('../../config/config');
 
 const pathsUtils = config.utils_paths;
@@ -32,6 +33,13 @@ const baseConfig = {
     ]
   },
   plugins: [
+    new webpack.LoaderOptionsPlugin({
+      options: {
+        postcss() {
+          return [autoprefixer({ browsers: ['last 10 versions'] })];
+        }
+      }
+    }),
     new webpack.optimize.CommonsChunkPlugin({
       name: config.compiler_vendor_key,
       filename: '[name].[hash:8].js'
