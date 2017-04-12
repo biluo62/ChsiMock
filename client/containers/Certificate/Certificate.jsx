@@ -63,21 +63,21 @@ class Certificate extends Component {
         { title: '出生日期：', content: '1991年6月29日' }
       ],
       [
-        { title: '入学时间：', content: '2010年9月10日' },
-        { title: '毕业时间：', content: '2014年7月1日' },
-        { title: '学历类型：', content: '普通' },
-        { title: '学历层次：', content: '本科' },
-        { title: '毕业院校：', content: '湖南商学院' },
+        { title: '入学时间：', content: '2014年9月10日' },
+        { title: '毕业时间：', content: '2016年7月1日' },
+        { title: '学历类型：', content: '研究生' },
+        { title: '学历层次：', content: '硕士研究生' },
+        { title: '毕业院校：', content: '中南林业科技大学' },
         { title: '院校所在地：', content: '湖南省' },
-        { title: '专业名称：', content: '计算机科学与技术' },
+        { title: '专业名称：', content: '生理学' },
         { title: '学习形式：', content: '普通全日制' },
-        { title: '证书编号：', content: '1055 4120 1405 0013 35' },
+        { title: '证书编号：', content: '1055 8120 1302 0032 40' },
         { title: '毕结业结论：', content: '毕业' }
       ],
       [
         { title: '在线验证码：', content: '8117 6483 6712' },
         { title: '制表日期：', content: '2016年9月10日' },
-        { title: '验证期至：', content: '2017年9月5日' }
+        { title: '验证期至：', content: '2017年3月8日' }
       ]
     ];
 
